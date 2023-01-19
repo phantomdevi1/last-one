@@ -179,6 +179,28 @@ header{
   background: none;
   border: none;
 }
+#selectID{
+  border-color: #fff;
+}
+#selectID:checked{
+  border-color: #fff;
+}
+.poloski__sort__btn{
+  width: 30px;
+  height: 30px;
+}
+.poloski__sort__btn:hover{
+  border-radius: 50px;
+  background-color: #c5c5c7;
+}
+.cubiki__sort__btn{
+  width: 30px;
+  height: 30px;
+}
+.cubiki__sort__btn:hover{
+  border-radius: 50px;
+  background-color: #c5c5c7;
+}
 .vid_sort{
   margin-left: 605px;
 }
@@ -280,6 +302,12 @@ header{
   display: flex;
   flex-direction: column;
 }
+#vibor__magazina__select{
+   border-radius: 6px;
+  color: #8E8E93;
+  padding-left: 15px;
+}
+
 .checkbox_txt{ 
   font-family: 'Roboto';
   font-weight: 400;
@@ -480,12 +508,35 @@ header{
   background-color: red;
 }
 .like_tovar{
+  padding: 0;
+  padding-top: 4px;
   background: none;
   border: none;
+  width: 30px;
+  height: 30px;
+}
+.like_tovar:hover{
+  background-color: #c5c5c7;
+  border-radius: 50px;  
+}
+.like_tovar:active{
+  background-color: #F05757;
+  border-radius: 50px; 
+  transition: 0.1s;
+}
+.like_tovar:focus{
+  background-color: #F05757;
+  border-radius: 50px; 
 }
 .sravnen_tovara{
   background: none;
   border: none;
+  width: 30px;
+  height: 30px;
+}
+.sravnen_tovara:hover{
+  background-color: #c5c5c7;
+  border-radius: 50px; 
 }
 #more_tovar_btn{
   margin-left: 20px;
@@ -548,12 +599,14 @@ header{
 }
 
 footer{
-  max-width: 1905px; 
-  width: 100%;
+  width: 1905px; 
   min-height: 550px;
   height: 100%;
   margin-top: 60px;
   background: #1E2022;
+}
+.margin__top__footer__zagl{
+  margin-top: 30px;
 }
 .logo_under{
   margin-left: 400px;
@@ -644,4 +697,42 @@ ul{
 }
 .polir_konf{
   margin-left: 530px;
+}
+.strelka_adaptiv{
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  header{
+    width: 1000px;
+    height: 130px;
+  }
+  hr{
+    max-width: 1000px;
+    margin-top: 15px;
+  }
+  .geolocation{
+    margin-left: 20px;
+  }
+  .geolocation a{
+    display: flex;
+    flex-direction: row;
+  }
+  .shapka{
+    margin-left: 90px;
+    
+  }
+  .header__phone{
+    padding-left: 100px;
+  }
+  .logo{
+    margin-left: 20px;
+  }
+  .search input{
+    width: 279px;
+  }
+  .search button{
+    left: 600px;
+  }
+  
 }
