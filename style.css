@@ -701,6 +701,9 @@ ul{
 .strelka_adaptiv{
   display: none;
 }
+.adapiv__element{
+  display: none;
+}
 
 @media screen and (max-width: 1000px) {
   header{
@@ -733,6 +736,80 @@ ul{
   }
   .search button{
     left: 600px;
+  }
+  .way{
+    margin-left: 20px;
+  }
+  .category_name{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .content{
+    margin-left: 20px;
+    max-width: 960px;
+  }
+  .sortirovka_tovarov{
+    left: 305px;
+    margin-top: 0px;
+    
+  }
+  .sortirovka_spisok{
+    display: flex;
+    flex-direction: row;
+  }
+  .vid_sort{
+    margin-left: 400px;
+  }
+  .content__tovar{
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+  footer{
+    width: 1000px;
+    
+  }
+  .logo_under{
+    margin-left: 20px;
+  }
+  .footer_info{
+    margin-left: 20px;
+  }
+  .hr_underline{
+    margin-left: 0px;
+    max-width: 960px;
+  }
+  .margin__adaptiv__hr{
+    margin-left: 20px;
+  }
+  .adapiv__element{
+    display: flex;
+  }
+  .strelka_adaptiv{
+    display: inline-block;
+  }
+  .footer_info{
+    flex-direction: column;
+  }
+  .footer_for_buyers{
+    margin-left: 0px;
+  }
+  .footer_no_name{
+    display: none;
+  }
+  .footer_social_seti{
+    margin-left: 0px;
+  }
+  .under_footer_container{
+    margin-left: 20px; 
+  }
+  .polir_konf{
+    margin-left: 350px;
+  }
+  .strelka_adaptiv_one{
+    margin-left: 78%;
+  }
+  .strelka_adaptiv_two{
+    margin-left: 76.5%;
   }
   
 }
